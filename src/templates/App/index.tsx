@@ -1,8 +1,9 @@
+import { Card } from '../../components/Card'
 import './styles.css'
 
 export function App() {
   return (
-    <p>Oi</p>
+    <Card back="A" flipped />
   )
 }
 
